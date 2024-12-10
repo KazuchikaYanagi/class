@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.get("/", (req: Request, res: Response) => {
-  res.status(200).send("Welcome to my server");
+  res.status(200).send("This is changing backend");
 });
 
 // Start server

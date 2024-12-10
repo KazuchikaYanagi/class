@@ -18,7 +18,7 @@ app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
 // Routes
 app.get("/", (req, res) => {
-    res.status(200).send("Welcome to my server");
+    res.status(200).send("This is changing backend");
 });
 // Start server
 const PORT = process.env.PORT || 3000;
